@@ -37,7 +37,6 @@ test = torch.utils.data.DataLoader(dataset = test_set, batch_size = bs)
 """
 MODEL
 """
-
 class MyCNN(torch.nn.Module):
     def __init__(self, *args):
         super(MyCNN, self).__init__()
